@@ -197,7 +197,7 @@
   align-items: center;
 }
 .year {
-  ffont-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: lime;
@@ -217,6 +217,8 @@
 }
 .funtion_part {
   margin: 120px 140px;
+  padding-top: 68px;
+  padding-bottom: 62px;
 }
 .funtion_title {
   font-family: 'Inter', sans-serif;
@@ -246,4 +248,26 @@
   line-height: 32px;
   color: rgba(7, 2, 17, 0.6);
   font-weight: 500;
+}
+
+.img_section_one {
+  width: 429px;
+  height: 433px;
+  border-radius: 16px 16px 0px 0px;
+  background: url(<path-to-image>),
+    lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+.img_section {
+  display: flex;
+  justify-content: space-around;
+}
+.boder_row {
+  width: 1320px;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1000px;
 }
