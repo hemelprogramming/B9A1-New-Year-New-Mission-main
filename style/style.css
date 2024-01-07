@@ -20,14 +20,14 @@
   font-size: 32px;
   font-weight: 400;
   font-family: var(Merriweather);
-  color: #fff;
+  color: lightgreen;
   font-family: 'Merriweather', serif;
   text-align: center;
   margin: 0 auto;
 }
 .banner_part_two {
   width: 632px;
-  color: #fff;
+  color: lightgreen;
   text-align: center;
   margin: 0 auto;
   font-size: 72px;
@@ -35,14 +35,14 @@
   line-height: 95px;
 }
 .title_head {
-  color: #f00;
+  color: lime;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 88px;
   font-weight: 700;
 }
 .title_head_two {
-  color: #f00;
+  color: lime;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 24px;
@@ -101,6 +101,10 @@
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all linear 0.3s;
+}
+.join_section a:hover {
+  color: lime;
 }
 .new_park_hotel {
   margin: 120px 140px;
@@ -123,7 +127,7 @@
   text-transform: capitalize;
 }
 .head_color {
-  color: #f00;
+  color: lime;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -143,13 +147,103 @@
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 8px;
-  background: #f00;
+  background: lime;
   margin-top: 48px;
   cursor: pointer;
   transition: all linear 0.3s;
 }
 .hotel_button:hover {
-  background: lightgreen;
-  color: black;
+  background: red;
+  color: #fff;
   letter-spacing: 0.1px;
+}
+.new_best_offer_part {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin: 120px 140px;
+}
+.best_offer {
+  color: lime;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.best_offer_two {
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.offer_description {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.offer_img {
+  width: 463px;
+  height: 463px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year {
+  ffont-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: lime;
+}
+.year_description {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 43px;
+}
+.offer_img_two {
+  width: 140px;
+  height: 140px;
+}
+.funtion_part {
+  margin: 120px 140px;
+}
+.funtion_title {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  text-align: center;
+}
+.Holidays {
+  color: lightcoral;
+}
+.funtion_title_two {
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+.funtion_description {
+  width: 882px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+  font-weight: 500;
 }
