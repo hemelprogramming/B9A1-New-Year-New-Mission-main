@@ -430,7 +430,7 @@
 }
 .footer_title_one {
   display: flex;
-  justify-content: space-between;
+  gap: 559px;
   align-items: center;
 }
 .footer_title {
@@ -462,6 +462,29 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-top: 98px;
-  margin-bottom: 98px;
+  margin: 98px;
+}
+.footer_section_finish {
+  display: flex;
+  gap: 559px;
+  justify-content: space-around;
+}
+.footer_copy {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer_unsubscribes {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.line_hr {
+  width: 1320px;
+  height: 1px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
