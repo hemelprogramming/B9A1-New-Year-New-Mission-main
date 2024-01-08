@@ -468,7 +468,7 @@
   font-weight: 500;
 }
 .footer_unsubscribes {
-  color: rgba(255, 255, 255, 0.151);
+  color: #fff;
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
@@ -479,4 +479,5 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 60px;
+  background: rgba(255, 255, 255, 0.15);
 }
