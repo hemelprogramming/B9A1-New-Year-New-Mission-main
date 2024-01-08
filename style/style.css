@@ -337,8 +337,9 @@
   line-height: 32px;
   margin-bottom: 48px;
 }
-.protfolio {
+.protfolio_sectione {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .protfolio_img {
@@ -353,9 +354,6 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.protfolio {
-  padding-left: 0;
 }
 .subscribe_part {
   margin: 120px 140px;
@@ -389,40 +387,34 @@
   line-height: 32px;
 }
 .subscribe_button {
-  text-align: center;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 48px;
 }
 .subscribe_button input {
   width: 438px;
-  height: 72px;
-  padding: 25px 30px;
   border: none;
+  padding: 25px 30px;
   border-radius: 50px 0px 0px 50px;
 }
-.subscribe_button input::placeholder {
-  color: rgba(7, 2, 17, 0.3);
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-}
-.subscribe_button .button {
+.button {
+  width: 210px;
+  padding: 20px 56px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
   color: #fff;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter;
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  padding: 22px 50px;
-  border-radius: 0px 50px 50px 0px;
-  border: none;
-  background: red;
-  margin-left: -6px;
-  cursor: pointer;
+  background: #f00;
   transition: all linear 0.3s;
+  cursor: pointer;
 }
-.subscribe_button .button:hover {
+.button:hover {
   background: lightgreen;
+  color: red;
 }
 .footer_section {
   padding: 120px 140px;
@@ -476,7 +468,7 @@
   font-weight: 500;
 }
 .footer_unsubscribes {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.151);
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
